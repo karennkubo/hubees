@@ -1,6 +1,8 @@
 # Teste Netpark/Hubees Backend:
 
-### A API a seguir foi desenvolvida com Typescript utilizando Express que realiza as operações simples de CRUD (Create, Read, Update e Delete) de um estabelecimento que vende bicicletas. Uma bicicleta possui os seguintes atributos:
+[Documentação](https://documenter.getpostman.com/view/20352445/UzJPMajp)
+
+### A API a seguir foi desenvolvida com Typescript utilizando Express que realiza as operações simples de CRUD (Create, Read, Update e Delete) de um estabelecimento que vende bicicletas e retorna, se bem sucedido, características do(s) produto(s). Uma bicicleta possui os seguintes atributos:
 
 <li>Cor</li>
 <li>Número de marchas</li>
@@ -28,3 +30,4 @@
 <li><strong>Color</strong>: Filtra os produtos selecionados de acordo com a cor que o usuário selecionou.</li>
 <li><strong>Order</strong>: Ordena os produtos selecionados de acordo com o preço - podendo ser "asc" (ascendente) ou "desc" (decrescente).</li>
 
+![Documentação](image.png)
