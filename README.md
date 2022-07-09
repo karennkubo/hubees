@@ -29,5 +29,3 @@
 <em>Ao ser utilizado, esse endpoint retorna todos os produtos cadastrados no catálogo, porém, podem ser adicionados filtros e ordenações nessa funcionalidade - através da query: (OBS.: Ambas as funcionalidades a seguir podem ser utilizadas concomitantemente de acordo com a necessidade do usuário.)
 <li><strong>Color</strong>: Filtra os produtos selecionados de acordo com a cor que o usuário selecionou.</li>
 <li><strong>Order</strong>: Ordena os produtos selecionados de acordo com o preço - podendo ser "asc" (ascendente) ou "desc" (decrescente).</li>
-
-![Documentação](image.png)
