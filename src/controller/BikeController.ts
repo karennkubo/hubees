@@ -25,7 +25,7 @@ export class BikeController {
 
         } catch (error) {
             if (error instanceof Error) {
-                res.send(error.message)
+                res.status(400).send(error.message)
             } else {
                 res.status(500).send(`Erro no cadastro do produto`)
             }
@@ -41,7 +41,7 @@ export class BikeController {
             res.status(200).send({ message, product })
         } catch (error) {
             if (error instanceof Error) {
-                res.send(error.message)
+                res.status(400).send(error.message)
             } else {
                 res.status(500).send(`Erro ao fazer a requisição de vender o produto`)
             }
@@ -58,7 +58,7 @@ export class BikeController {
             res.status(200).send({ message, product })
         } catch (error) {
             if (error instanceof Error) {
-                res.send(error.message)
+                res.status(400).send(error.message)
             } else {
                 res.status(500).send(`Erro ao alterar o preço!`)
             }
@@ -86,7 +86,7 @@ export class BikeController {
 
         } catch (error) {
             if (error instanceof Error) {
-                res.send(error.message)
+                res.status(400).send(error.message)
             } else {
                 res.status(500).send(`Erro ao listar os produtos!`)
             }
